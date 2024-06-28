@@ -1,0 +1,81 @@
+body{
+	background: url('../images/login-background.jpg') no-repeat center center fixed;
+	background-size: cover;
+	font-family: arial;
+}
+
+div.loginHeader{
+	text-align: center;
+}
+
+div.loginHeader{
+	margin-bottom: 60px;
+}
+
+div.loginHeader h1{
+	font-size: 100px;
+	color:#A6890F;
+	padding: 0px;
+	margin: 0px;
+	font-family: arial;
+}
+
+div.loginHeader p{
+	color:#9EA8B8;
+	font-size: 50px;
+	margin:0px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+div.loginHeader p:after{
+	content:'';
+	display: block;
+	height: 5px;
+	background: #CDAF35;
+	margin:0 auto;
+}
+
+div.loginBody form{
+	margin:0 auto;
+	width:450px;
+	background: rgba(0, 0, 0, .5);
+	padding: 50px;
+	border:3px solid #fff;
+	border-radius: 8px;
+}
+
+div.loginInputsContainer{
+	margin-top:30px;
+}
+
+div.loginInputsContainer label{
+	display: block;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+div.loginInputsContainer input{
+	height:30px;
+	width: 100%;
+	border:2px solid #A6890F;
+	font-size: 20px;
+	padding: 5px;
+	text-align: center;
+	font-style: italic;
+}
+
+div.loginButtonContainer{
+	margin-top: 40px;
+	text-align: center;
+}
+
+div.loginButtonContainer button{
+	font-size: 20px;
+	padding: 10px 40px;
+	background: #A6890F;
+	border:none;
+	color: #fff;
+}
